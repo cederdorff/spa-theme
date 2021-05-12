@@ -1,0 +1,26 @@
+/* ---------- root variables ---------- */
+:root {
+
+}
+
+
+
+/* ---------- page styling ---------- */
+.page {
+  display: none;
+  /*min heigh is screen heigh minus height of tab and top bar */
+  min-height: calc(100vh);
+  animation: fadeIn 0.4s;
+}
+
+/* ---------- animations ---------- */
+/* fade in */
+@keyframes fadeIn {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
